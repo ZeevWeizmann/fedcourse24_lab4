@@ -1,0 +1,662 @@
+==> Initialize Clients..
+[MALICIOUS] client 0 uses Label_Flipping_Learner
+==> Initialize Aggregator..
+==> Training Loop..
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 0..
+Train Loss: 2.350 | Train Metric: 0.106 |Test Loss: 2.350 | Test Acc: 0.106 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+  0%|          | 0/25 [00:00<?, ?it/s]                                        0%|          | 0/25 [00:00<?, ?it/s]                                        0%|          | 0/25 [00:00<?, ?it/s]                                        0%|          | 0/25 [00:00<?, ?it/s]                                        0%|          | 0/25 [00:00<?, ?it/s]                                        0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:00<00:07,  3.10it/s]                                                4%|▍         | 1/25 [00:01<00:07,  3.10it/s]                                                4%|▍         | 1/25 [00:01<00:07,  3.10it/s]                                                4%|▍         | 1/25 [00:01<00:07,  3.10it/s]                                                4%|▍         | 1/25 [00:01<00:07,  3.10it/s]                                                4%|▍         | 1/25 [00:01<00:07,  3.10it/s]  8%|▊         | 2/25 [00:01<00:14,  1.54it/s]                                                8%|▊         | 2/25 [00:01<00:14,  1.54it/s]                                                8%|▊         | 2/25 [00:01<00:14,  1.54it/s]                                                8%|▊         | 2/25 [00:01<00:14,  1.54it/s]                                                8%|▊         | 2/25 [00:01<00:14,  1.54it/s]                                                8%|▊         | 2/25 [00:01<00:14,  1.54it/s] 12%|█▏        | 3/25 [00:01<00:10,  2.01it/s]                                               12%|█▏        | 3/25 [00:01<00:10,  2.01it/s]                                               12%|█▏        | 3/25 [00:01<00:10,  2.01it/s]                                               12%|█▏        | 3/25 [00:01<00:10,  2.01it/s]                                               12%|█▏        | 3/25 [00:01<00:10,  2.01it/s]                                               12%|█▏        | 3/25 [00:01<00:10,  2.01it/s] 16%|█▌        | 4/25 [00:01<00:08,  2.39it/s]                                               16%|█▌        | 4/25 [00:02<00:08,  2.39it/s]                                               16%|█▌        | 4/25 [00:02<00:08,  2.39it/s]                                               16%|█▌        | 4/25 [00:02<00:08,  2.39it/s]                                               16%|█▌        | 4/25 [00:02<00:08,  2.39it/s]                                               16%|█▌        | 4/25 [00:02<00:08,  2.39it/s] 20%|██        | 5/25 [00:02<00:07,  2.66it/s]                                               20%|██        | 5/25 [00:02<00:07,  2.66it/s]                                               20%|██        | 5/25 [00:02<00:07,  2.66it/s]                                               20%|██        | 5/25 [00:02<00:07,  2.66it/s]                                               20%|██        | 5/25 [00:02<00:07,  2.66it/s]                                               20%|██        | 5/25 [00:02<00:07,  2.66it/s] 24%|██▍       | 6/25 [00:02<00:06,  2.92it/s]                                               24%|██▍       | 6/25 [00:02<00:06,  2.92it/s]                                               24%|██▍       | 6/25 [00:02<00:06,  2.92it/s]                                               24%|██▍       | 6/25 [00:02<00:06,  2.92it/s]                                               24%|██▍       | 6/25 [00:02<00:06,  2.92it/s]                                               24%|██▍       | 6/25 [00:02<00:06,  2.92it/s] 28%|██▊       | 7/25 [00:02<00:05,  3.03it/s]                                               28%|██▊       | 7/25 [00:03<00:05,  3.03it/s]                                               28%|██▊       | 7/25 [00:03<00:05,  3.03it/s]                                               28%|██▊       | 7/25 [00:03<00:05,  3.03it/s]                                               28%|██▊       | 7/25 [00:03<00:05,  3.03it/s]                                               28%|██▊       | 7/25 [00:03<00:05,  3.03it/s] 32%|███▏      | 8/25 [00:03<00:05,  3.04it/s]                                               32%|███▏      | 8/25 [00:03<00:05,  3.04it/s]                                               32%|███▏      | 8/25 [00:03<00:05,  3.04it/s]                                               32%|███▏      | 8/25 [00:03<00:05,  3.04it/s]                                               32%|███▏      | 8/25 [00:03<00:05,  3.04it/s]                                               32%|███▏      | 8/25 [00:03<00:05,  3.04it/s] 36%|███▌      | 9/25 [00:03<00:05,  3.19it/s]                                               36%|███▌      | 9/25 [00:03<00:05,  3.19it/s]                                               36%|███▌      | 9/25 [00:03<00:05,  3.19it/s]                                               36%|███▌      | 9/25 [00:03<00:05,  3.19it/s]                                               36%|███▌      | 9/25 [00:03<00:05,  3.19it/s]                                               36%|███▌      | 9/25 [00:03<00:05,  3.19it/s] 40%|████      | 10/25 [00:03<00:04,  3.29it/s]                                                40%|████      | 10/25 [00:03<00:04,  3.29it/s]                                                40%|████      | 10/25 [00:03<00:04,  3.29it/s]                                                40%|████      | 10/25 [00:03<00:04,  3.29it/s]                                                40%|████      | 10/25 [00:03<00:04,  3.29it/s]                                                40%|████      | 10/25 [00:03<00:04,  3.29it/s] 44%|████▍     | 11/25 [00:03<00:04,  3.34it/s]Time to perform a client step: 0.04263496398925781
+Time to perform a client step: 0.02587294578552246
+Time to perform a client step: 0.02525615692138672
+Time to perform a client step: 0.021880149841308594
+Time to perform a client step: 0.024768829345703125
+Time to perform a client step: 0.021804094314575195
+Time to perform a client step: 0.023029088973999023
+Time to perform a client step: 0.022195100784301758
+Time to perform a client step: 0.021502971649169922
+Time to perform a client step: 0.021689653396606445
+Time to aggregate models: 0.00044798851013183594
+Time to assign a model to a client: 8.487701416015625e-05
+Time to assign a model to a client: 3.3855438232421875e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to perform aggregation:0.25146031379699707
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 1..
+Train Loss: 2.219 | Train Metric: 0.158 |Test Loss: 2.219 | Test Acc: 0.158 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.022526025772094727
+Time to perform a client step: 0.022330760955810547
+Time to perform a client step: 0.02096104621887207
+Time to perform a client step: 0.02360701560974121
+Time to perform a client step: 0.04446601867675781
+Time to perform a client step: 0.06636190414428711
+Time to perform a client step: 0.04308819770812988
+Time to perform a client step: 0.11114501953125
+Time to perform a client step: 0.10355472564697266
+Time to perform a client step: 0.12723875045776367
+Time to aggregate models: 0.006707906723022461
+Time to assign a model to a client: 0.0002999305725097656
+Time to assign a model to a client: 0.00018715858459472656
+Time to assign a model to a client: 7.390975952148438e-05
+Time to assign a model to a client: 7.104873657226562e-05
+Time to assign a model to a client: 4.887580871582031e-05
+Time to assign a model to a client: 2.6226043701171875e-05
+Time to assign a model to a client: 2.8133392333984375e-05
+Time to assign a model to a client: 4.220008850097656e-05
+Time to assign a model to a client: 2.5033950805664062e-05
+Time to assign a model to a client: 2.09808349609375e-05
+Time to perform aggregation:0.5940320491790771
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 2..
+Train Loss: 2.007 | Train Metric: 0.330 |Test Loss: 2.007 | Test Acc: 0.330 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02600407600402832
+Time to perform a client step: 0.023817062377929688
+Time to perform a client step: 0.027707815170288086
+Time to perform a client step: 0.024974822998046875
+Time to perform a client step: 0.023983001708984375
+Time to perform a client step: 0.026733875274658203
+Time to perform a client step: 0.02296614646911621
+Time to perform a client step: 0.02199411392211914
+Time to perform a client step: 0.022207975387573242
+Time to perform a client step: 0.021435022354125977
+Time to aggregate models: 0.0004019737243652344
+Time to assign a model to a client: 4.982948303222656e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to perform aggregation:0.24253320693969727
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 3..
+Train Loss: 1.819 | Train Metric: 0.472 |Test Loss: 1.819 | Test Acc: 0.472 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02161407470703125
+Time to perform a client step: 0.021897077560424805
+Time to perform a client step: 0.022443056106567383
+Time to perform a client step: 0.022494077682495117
+Time to perform a client step: 0.02184891700744629
+Time to perform a client step: 0.020925045013427734
+Time to perform a client step: 0.022718191146850586
+Time to perform a client step: 0.02174210548400879
+Time to perform a client step: 0.0230100154876709
+Time to perform a client step: 0.02223682403564453
+Time to aggregate models: 0.00035691261291503906
+Time to assign a model to a client: 3.814697265625e-05
+Time to assign a model to a client: 2.09808349609375e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.6689300537109375e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to perform aggregation:0.22156286239624023
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 4..
+Train Loss: 1.658 | Train Metric: 0.518 |Test Loss: 1.658 | Test Acc: 0.518 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02253103256225586
+Time to perform a client step: 0.02165079116821289
+Time to perform a client step: 0.020823001861572266
+Time to perform a client step: 0.020138978958129883
+Time to perform a client step: 0.021757841110229492
+Time to perform a client step: 0.025866031646728516
+Time to perform a client step: 0.02249002456665039
+Time to perform a client step: 0.021238088607788086
+Time to perform a client step: 0.022003889083862305
+Time to perform a client step: 0.0285799503326416
+Time to aggregate models: 0.0003428459167480469
+Time to assign a model to a client: 3.814697265625e-05
+Time to assign a model to a client: 2.09808349609375e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 2.6226043701171875e-05
+Time to assign a model to a client: 2.193450927734375e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 2.574920654296875e-05
+Time to perform aggregation:0.2277219295501709
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 5..
+Train Loss: 1.519 | Train Metric: 0.551 |Test Loss: 1.519 | Test Acc: 0.551 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.020898103713989258
+Time to perform a client step: 0.02095508575439453
+Time to perform a client step: 0.02077794075012207
+Time to perform a client step: 0.02111673355102539
+Time to perform a client step: 0.020997285842895508
+Time to perform a client step: 0.02046990394592285
+Time to perform a client step: 0.021011829376220703
+Time to perform a client step: 0.02069401741027832
+Time to perform a client step: 0.02048802375793457
+Time to perform a client step: 0.020868778228759766
+Time to aggregate models: 0.0003399848937988281
+Time to assign a model to a client: 3.719329833984375e-05
+Time to assign a model to a client: 2.09808349609375e-05
+Time to assign a model to a client: 1.9311904907226562e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to perform aggregation:0.2088618278503418
+++++++++++++++++++++++++++++++++++++++++++++++++++                                                44%|████▍     | 11/25 [00:04<00:04,  3.34it/s]                                                44%|████▍     | 11/25 [00:04<00:04,  3.34it/s]                                                44%|████▍     | 11/25 [00:04<00:04,  3.34it/s]                                                44%|████▍     | 11/25 [00:04<00:04,  3.34it/s]                                                44%|████▍     | 11/25 [00:04<00:04,  3.34it/s] 48%|████▊     | 12/25 [00:04<00:03,  3.41it/s]                                                48%|████▊     | 12/25 [00:04<00:03,  3.41it/s]                                                48%|████▊     | 12/25 [00:04<00:03,  3.41it/s]                                                48%|████▊     | 12/25 [00:04<00:03,  3.41it/s]                                                48%|████▊     | 12/25 [00:04<00:03,  3.41it/s]                                                48%|████▊     | 12/25 [00:04<00:03,  3.41it/s] 52%|█████▏    | 13/25 [00:04<00:03,  3.47it/s]                                                52%|█████▏    | 13/25 [00:04<00:03,  3.47it/s]                                                52%|█████▏    | 13/25 [00:04<00:03,  3.47it/s]                                                52%|█████▏    | 13/25 [00:04<00:03,  3.47it/s]                                                52%|█████▏    | 13/25 [00:04<00:03,  3.47it/s]                                                52%|█████▏    | 13/25 [00:04<00:03,  3.47it/s] 56%|█████▌    | 14/25 [00:04<00:03,  3.51it/s]                                                56%|█████▌    | 14/25 [00:04<00:03,  3.51it/s]                                                56%|█████▌    | 14/25 [00:04<00:03,  3.51it/s]                                                56%|█████▌    | 14/25 [00:04<00:03,  3.51it/s]                                                56%|█████▌    | 14/25 [00:04<00:03,  3.51it/s]                                                56%|█████▌    | 14/25 [00:04<00:03,  3.51it/s] 60%|██████    | 15/25 [00:04<00:02,  3.54it/s]                                                60%|██████    | 15/25 [00:05<00:02,  3.54it/s]                                                60%|██████    | 15/25 [00:05<00:02,  3.54it/s]                                                60%|██████    | 15/25 [00:05<00:02,  3.54it/s]                                                60%|██████    | 15/25 [00:05<00:02,  3.54it/s]                                                60%|██████    | 15/25 [00:05<00:02,  3.54it/s] 64%|██████▍   | 16/25 [00:05<00:02,  3.55it/s]                                                64%|██████▍   | 16/25 [00:05<00:02,  3.55it/s]                                                64%|██████▍   | 16/25 [00:05<00:02,  3.55it/s]                                                64%|██████▍   | 16/25 [00:05<00:02,  3.55it/s]                                                64%|██████▍   | 16/25 [00:05<00:02,  3.55it/s]                                                64%|██████▍   | 16/25 [00:05<00:02,  3.55it/s] 68%|██████▊   | 17/25 [00:05<00:02,  3.57it/s]
+Global | Round 6..
+Train Loss: 1.402 | Train Metric: 0.589 |Test Loss: 1.402 | Test Acc: 0.589 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02107715606689453
+Time to perform a client step: 0.02103710174560547
+Time to perform a client step: 0.021006107330322266
+Time to perform a client step: 0.01995706558227539
+Time to perform a client step: 0.02067089080810547
+Time to perform a client step: 0.020559072494506836
+Time to perform a client step: 0.024148941040039062
+Time to perform a client step: 0.024169921875
+Time to perform a client step: 0.026292085647583008
+Time to perform a client step: 0.024137020111083984
+Time to aggregate models: 0.0003669261932373047
+Time to assign a model to a client: 4.315376281738281e-05
+Time to assign a model to a client: 2.2172927856445312e-05
+Time to assign a model to a client: 1.9073486328125e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to perform aggregation:0.2236940860748291
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 7..
+Train Loss: 1.303 | Train Metric: 0.622 |Test Loss: 1.303 | Test Acc: 0.622 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.06146812438964844
+Time to perform a client step: 0.02309417724609375
+Time to perform a client step: 0.021263837814331055
+Time to perform a client step: 0.020411968231201172
+Time to perform a client step: 0.021481037139892578
+Time to perform a client step: 0.021317005157470703
+Time to perform a client step: 0.020930051803588867
+Time to perform a client step: 0.022117137908935547
+Time to perform a client step: 0.022150278091430664
+Time to perform a client step: 0.022420167922973633
+Time to aggregate models: 0.0003409385681152344
+Time to assign a model to a client: 3.790855407714844e-05
+Time to assign a model to a client: 1.9788742065429688e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to perform aggregation:0.25726318359375
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 8..
+Train Loss: 1.223 | Train Metric: 0.652 |Test Loss: 1.223 | Test Acc: 0.652 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02112269401550293
+Time to perform a client step: 0.020587921142578125
+Time to perform a client step: 0.020763874053955078
+Time to perform a client step: 0.020329952239990234
+Time to perform a client step: 0.02074599266052246
+Time to perform a client step: 0.02046823501586914
+Time to perform a client step: 0.02105998992919922
+Time to perform a client step: 0.020529985427856445
+Time to perform a client step: 0.02076125144958496
+Time to perform a client step: 0.020589113235473633
+Time to aggregate models: 0.00033402442932128906
+Time to assign a model to a client: 3.600120544433594e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.9073486328125e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to perform aggregation:0.20753192901611328
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 9..
+Train Loss: 1.158 | Train Metric: 0.677 |Test Loss: 1.158 | Test Acc: 0.677 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.020851850509643555
+Time to perform a client step: 0.020768165588378906
+Time to perform a client step: 0.02070784568786621
+Time to perform a client step: 0.020164012908935547
+Time to perform a client step: 0.020896196365356445
+Time to perform a client step: 0.020411014556884766
+Time to perform a client step: 0.02088618278503418
+Time to perform a client step: 0.020758867263793945
+Time to perform a client step: 0.021193981170654297
+Time to perform a client step: 0.02100205421447754
+Time to aggregate models: 0.0003159046173095703
+Time to assign a model to a client: 3.719329833984375e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to perform aggregation:0.20819091796875
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 10..
+Train Loss: 1.105 | Train Metric: 0.694 |Test Loss: 1.105 | Test Acc: 0.694 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02132701873779297
+Time to perform a client step: 0.020801782608032227
+Time to perform a client step: 0.020624160766601562
+Time to perform a client step: 0.02000713348388672
+Time to perform a client step: 0.020494937896728516
+Time to perform a client step: 0.02055978775024414
+Time to perform a client step: 0.021245956420898438
+Time to perform a client step: 0.020521879196166992
+Time to perform a client step: 0.02655315399169922
+Time to perform a client step: 0.02407073974609375
+Time to aggregate models: 0.00035500526428222656
+Time to assign a model to a client: 4.1961669921875e-05
+Time to assign a model to a client: 2.09808349609375e-05
+Time to assign a model to a client: 1.9073486328125e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to perform aggregation:0.21682095527648926
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 11..
+Train Loss: 1.061 | Train Metric: 0.706 |Test Loss: 1.061 | Test Acc: 0.706 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.020721912384033203
+Time to perform a client step: 0.020996809005737305
+Time to perform a client step: 0.020888805389404297
+Time to perform a client step: 0.020144939422607422
+Time to perform a client step: 0.020704984664916992
+Time to perform a client step: 0.02120494842529297
+Time to perform a client step: 0.021190881729125977
+Time to perform a client step: 0.020941972732543945
+Time to perform a client step: 0.020833969116210938
+Time to perform a client step: 0.021252870559692383
+Time to aggregate models: 0.0003421306610107422
+Time to assign a model to a client: 3.814697265625e-05
+Time to assign a model to a client: 1.9788742065429688e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to assign a model to a client: 1.5020370483398438e-05                                                68%|██████▊   | 17/25 [00:05<00:02,  3.57it/s]                                                68%|██████▊   | 17/25 [00:05<00:02,  3.57it/s]                                                68%|██████▊   | 17/25 [00:05<00:02,  3.57it/s]                                                68%|██████▊   | 17/25 [00:05<00:02,  3.57it/s]                                                68%|██████▊   | 17/25 [00:05<00:02,  3.57it/s] 72%|███████▏  | 18/25 [00:05<00:01,  3.57it/s]                                                72%|███████▏  | 18/25 [00:06<00:01,  3.57it/s]                                                72%|███████▏  | 18/25 [00:06<00:01,  3.57it/s]                                                72%|███████▏  | 18/25 [00:06<00:01,  3.57it/s]                                                72%|███████▏  | 18/25 [00:06<00:01,  3.57it/s]                                                72%|███████▏  | 18/25 [00:06<00:01,  3.57it/s] 76%|███████▌  | 19/25 [00:06<00:01,  3.58it/s]                                                76%|███████▌  | 19/25 [00:06<00:01,  3.58it/s]                                                76%|███████▌  | 19/25 [00:06<00:01,  3.58it/s]                                                76%|███████▌  | 19/25 [00:06<00:01,  3.58it/s]                                                76%|███████▌  | 19/25 [00:06<00:01,  3.58it/s]                                                76%|███████▌  | 19/25 [00:06<00:01,  3.58it/s] 80%|████████  | 20/25 [00:06<00:01,  3.59it/s]                                                80%|████████  | 20/25 [00:06<00:01,  3.59it/s]                                                80%|████████  | 20/25 [00:06<00:01,  3.59it/s]                                                80%|████████  | 20/25 [00:06<00:01,  3.59it/s]                                                80%|████████  | 20/25 [00:06<00:01,  3.59it/s]                                                80%|████████  | 20/25 [00:06<00:01,  3.59it/s] 84%|████████▍ | 21/25 [00:06<00:01,  3.60it/s]                                                84%|████████▍ | 21/25 [00:06<00:01,  3.60it/s]                                                84%|████████▍ | 21/25 [00:06<00:01,  3.60it/s]                                                84%|████████▍ | 21/25 [00:06<00:01,  3.60it/s]                                                84%|████████▍ | 21/25 [00:06<00:01,  3.60it/s]                                                84%|████████▍ | 21/25 [00:06<00:01,  3.60it/s] 88%|████████▊ | 22/25 [00:06<00:00,  3.61it/s]                                                88%|████████▊ | 22/25 [00:07<00:00,  3.61it/s]                                                88%|████████▊ | 22/25 [00:07<00:00,  3.61it/s]                                                88%|████████▊ | 22/25 [00:07<00:00,  3.61it/s]                                                88%|████████▊ | 22/25 [00:07<00:00,  3.61it/s]                                                88%|████████▊ | 22/25 [00:07<00:00,  3.61it/s] 92%|█████████▏| 23/25 [00:07<00:00,  3.60it/s]
+Time to perform aggregation:0.20947265625
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 12..
+Train Loss: 1.023 | Train Metric: 0.718 |Test Loss: 1.023 | Test Acc: 0.718 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02098989486694336
+Time to perform a client step: 0.020621061325073242
+Time to perform a client step: 0.02065587043762207
+Time to perform a client step: 0.02018880844116211
+Time to perform a client step: 0.020843982696533203
+Time to perform a client step: 0.02038288116455078
+Time to perform a client step: 0.020807981491088867
+Time to perform a client step: 0.02070784568786621
+Time to perform a client step: 0.020197153091430664
+Time to perform a client step: 0.020591020584106445
+Time to aggregate models: 0.0003209114074707031
+Time to assign a model to a client: 3.814697265625e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.8358230590820312e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to perform aggregation:0.20653676986694336
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 13..
+Train Loss: 0.991 | Train Metric: 0.725 |Test Loss: 0.991 | Test Acc: 0.725 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.021119117736816406
+Time to perform a client step: 0.02072310447692871
+Time to perform a client step: 0.020437955856323242
+Time to perform a client step: 0.019648075103759766
+Time to perform a client step: 0.020534038543701172
+Time to perform a client step: 0.020634889602661133
+Time to perform a client step: 0.02109503746032715
+Time to perform a client step: 0.020765304565429688
+Time to perform a client step: 0.020477294921875
+Time to perform a client step: 0.020817995071411133
+Time to aggregate models: 0.0003230571746826172
+Time to assign a model to a client: 3.5762786865234375e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to perform aggregation:0.20680618286132812
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 14..
+Train Loss: 0.963 | Train Metric: 0.730 |Test Loss: 0.963 | Test Acc: 0.730 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.021426916122436523
+Time to perform a client step: 0.02097010612487793
+Time to perform a client step: 0.021223068237304688
+Time to perform a client step: 0.02001500129699707
+Time to perform a client step: 0.020534992218017578
+Time to perform a client step: 0.02059793472290039
+Time to perform a client step: 0.021142959594726562
+Time to perform a client step: 0.02032613754272461
+Time to perform a client step: 0.02056407928466797
+Time to perform a client step: 0.020711183547973633
+Time to aggregate models: 0.00031495094299316406
+Time to assign a model to a client: 3.62396240234375e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to perform aggregation:0.20805811882019043
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 15..
+Train Loss: 0.939 | Train Metric: 0.735 |Test Loss: 0.939 | Test Acc: 0.735 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.0210111141204834
+Time to perform a client step: 0.020447969436645508
+Time to perform a client step: 0.020336151123046875
+Time to perform a client step: 0.019720077514648438
+Time to perform a client step: 0.020744800567626953
+Time to perform a client step: 0.020557880401611328
+Time to perform a client step: 0.021218061447143555
+Time to perform a client step: 0.020888805389404297
+Time to perform a client step: 0.02096104621887207
+Time to perform a client step: 0.021313905715942383
+Time to aggregate models: 0.00033211708068847656
+Time to assign a model to a client: 3.4809112548828125e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to perform aggregation:0.20775699615478516
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 16..
+Train Loss: 0.917 | Train Metric: 0.739 |Test Loss: 0.917 | Test Acc: 0.739 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.020964860916137695
+Time to perform a client step: 0.020960092544555664
+Time to perform a client step: 0.020718097686767578
+Time to perform a client step: 0.0202178955078125
+Time to perform a client step: 0.020485877990722656
+Time to perform a client step: 0.02043604850769043
+Time to perform a client step: 0.020954132080078125
+Time to perform a client step: 0.020544767379760742
+Time to perform a client step: 0.020171165466308594
+Time to perform a client step: 0.02101612091064453
+Time to aggregate models: 0.00031304359436035156
+Time to assign a model to a client: 3.4809112548828125e-05
+Time to assign a model to a client: 1.8835067749023438e-05
+Time to assign a model to a client: 1.7881393432617188e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to perform aggregation:0.20700693130493164
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 17..
+Train Loss: 0.898 | Train Metric: 0.744 |Test Loss: 0.898 | Test Acc: 0.744 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02092719078063965
+Time to perform a client step: 0.020633935928344727
+Time to perform a client step: 0.020903348922729492
+Time to perform a client step: 0.02034306526184082
+Time to perform a client step: 0.02099609375
+Time to perform a client step: 0.020708799362182617
+Time to perform a client step: 0.020941972732543945
+Time to perform a client step: 0.02048516273498535
+Time to perform a client step: 0.02081894874572754
+Time to perform a client step: 0.02083110809326172
+Time to aggregate models: 0.000335693359375
+Time to assign a model to a client: 5.2928924560546875e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5020370483398438e-05                                                92%|█████████▏| 23/25 [00:07<00:00,  3.60it/s]                                                92%|█████████▏| 23/25 [00:07<00:00,  3.60it/s]                                                92%|█████████▏| 23/25 [00:07<00:00,  3.60it/s]                                                92%|█████████▏| 23/25 [00:07<00:00,  3.60it/s]                                                92%|█████████▏| 23/25 [00:07<00:00,  3.60it/s] 96%|█████████▌| 24/25 [00:07<00:00,  3.60it/s]                                                96%|█████████▌| 24/25 [00:07<00:00,  3.60it/s]                                                96%|█████████▌| 24/25 [00:07<00:00,  3.60it/s]                                                96%|█████████▌| 24/25 [00:07<00:00,  3.60it/s]                                                96%|█████████▌| 24/25 [00:07<00:00,  3.60it/s]                                                96%|█████████▌| 24/25 [00:07<00:00,  3.60it/s]100%|██████████| 25/25 [00:07<00:00,  3.59it/s]100%|██████████| 25/25 [00:07<00:00,  3.22it/s]
+
+Time to assign a model to a client: 2.2172927856445312e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to perform aggregation:0.20819306373596191
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 18..
+Train Loss: 0.880 | Train Metric: 0.747 |Test Loss: 0.880 | Test Acc: 0.747 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.02091503143310547
+Time to perform a client step: 0.02022075653076172
+Time to perform a client step: 0.02044391632080078
+Time to perform a client step: 0.020236968994140625
+Time to perform a client step: 0.020615100860595703
+Time to perform a client step: 0.020487070083618164
+Time to perform a client step: 0.02116703987121582
+Time to perform a client step: 0.020987987518310547
+Time to perform a client step: 0.0209808349609375
+Time to perform a client step: 0.020847082138061523
+Time to aggregate models: 0.0003147125244140625
+Time to assign a model to a client: 3.719329833984375e-05
+Time to assign a model to a client: 1.9311904907226562e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to perform aggregation:0.20744705200195312
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 19..
+Train Loss: 0.864 | Train Metric: 0.751 |Test Loss: 0.864 | Test Acc: 0.751 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.020857810974121094
+Time to perform a client step: 0.020537137985229492
+Time to perform a client step: 0.02179098129272461
+Time to perform a client step: 0.020164966583251953
+Time to perform a client step: 0.020679235458374023
+Time to perform a client step: 0.020488977432250977
+Time to perform a client step: 0.02083301544189453
+Time to perform a client step: 0.020657777786254883
+Time to perform a client step: 0.020320892333984375
+Time to perform a client step: 0.020570755004882812
+Time to aggregate models: 0.0003161430358886719
+Time to assign a model to a client: 3.695487976074219e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.8835067749023438e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to perform aggregation:0.2074568271636963
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 20..
+Train Loss: 0.850 | Train Metric: 0.756 |Test Loss: 0.850 | Test Acc: 0.756 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.020953893661499023
+Time to perform a client step: 0.020570039749145508
+Time to perform a client step: 0.020906686782836914
+Time to perform a client step: 0.020180940628051758
+Time to perform a client step: 0.02048206329345703
+Time to perform a client step: 0.020328998565673828
+Time to perform a client step: 0.02076888084411621
+Time to perform a client step: 0.020639896392822266
+Time to perform a client step: 0.020527124404907227
+Time to perform a client step: 0.02056598663330078
+Time to aggregate models: 0.0003070831298828125
+Time to assign a model to a client: 3.5762786865234375e-05
+Time to assign a model to a client: 1.9788742065429688e-05
+Time to assign a model to a client: 1.8835067749023438e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.52587890625e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to perform aggregation:0.20646309852600098
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 21..
+Train Loss: 0.835 | Train Metric: 0.766 |Test Loss: 0.835 | Test Acc: 0.766 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.021007061004638672
+Time to perform a client step: 0.02102494239807129
+Time to perform a client step: 0.020659923553466797
+Time to perform a client step: 0.019648075103759766
+Time to perform a client step: 0.020167827606201172
+Time to perform a client step: 0.020138025283813477
+Time to perform a client step: 0.020714998245239258
+Time to perform a client step: 0.020441055297851562
+Time to perform a client step: 0.02042531967163086
+Time to perform a client step: 0.020573139190673828
+Time to aggregate models: 0.0003178119659423828
+Time to assign a model to a client: 3.790855407714844e-05
+Time to assign a model to a client: 1.9788742065429688e-05
+Time to assign a model to a client: 1.8835067749023438e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to assign a model to a client: 3.814697265625e-05
+Time to assign a model to a client: 1.5735626220703125e-05
+Time to perform aggregation:0.20537018775939941
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 22..
+Train Loss: 0.822 | Train Metric: 0.771 |Test Loss: 0.822 | Test Acc: 0.771 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.021051883697509766
+Time to perform a client step: 0.020919084548950195
+Time to perform a client step: 0.02064800262451172
+Time to perform a client step: 0.020058155059814453
+Time to perform a client step: 0.020374059677124023
+Time to perform a client step: 0.020853042602539062
+Time to perform a client step: 0.021398067474365234
+Time to perform a client step: 0.020923852920532227
+Time to perform a client step: 0.02085089683532715
+Time to perform a client step: 0.02094101905822754
+Time to aggregate models: 0.00031113624572753906
+Time to assign a model to a client: 3.719329833984375e-05
+Time to assign a model to a client: 2.0265579223632812e-05
+Time to assign a model to a client: 1.8358230590820312e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to perform aggregation:0.20854997634887695
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 23..
+Train Loss: 0.810 | Train Metric: 0.775 |Test Loss: 0.810 | Test Acc: 0.775 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.020802021026611328
+Time to perform a client step: 0.020807981491088867
+Time to perform a client step: 0.020782947540283203
+Time to perform a client step: 0.0202791690826416
+Time to perform a client step: 0.020725011825561523
+Time to perform a client step: 0.020378828048706055
+Time to perform a client step: 0.021369218826293945
+Time to perform a client step: 0.02069687843322754
+Time to perform a client step: 0.020611047744750977
+Time to perform a client step: 0.020694971084594727
+Time to aggregate models: 0.0003070831298828125
+Time to assign a model to a client: 3.62396240234375e-05
+Time to assign a model to a client: 2.002716064453125e-05
+Time to assign a model to a client: 1.6689300537109375e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 2.384185791015625e-05
+Time to assign a model to a client: 1.8835067749023438e-05
+Time to assign a model to a client: 2.193450927734375e-05
+Time to assign a model to a client: 2.193450927734375e-05
+Time to assign a model to a client: 2.193450927734375e-05
+Time to perform aggregation:0.2077319622039795
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 24..
+Train Loss: 0.799 | Train Metric: 0.777 |Test Loss: 0.799 | Test Acc: 0.777 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Time to perform a client step: 0.021091938018798828
+Time to perform a client step: 0.0207979679107666
+Time to perform a client step: 0.020729780197143555
+Time to perform a client step: 0.02017974853515625
+Time to perform a client step: 0.020752906799316406
+Time to perform a client step: 0.020714998245239258
+Time to perform a client step: 0.021249055862426758
+Time to perform a client step: 0.020784854888916016
+Time to perform a client step: 0.020830154418945312
+Time to perform a client step: 0.02083301544189453
+Time to aggregate models: 0.0003352165222167969
+Time to assign a model to a client: 3.719329833984375e-05
+Time to assign a model to a client: 2.0265579223632812e-05
+Time to assign a model to a client: 1.811981201171875e-05
+Time to assign a model to a client: 1.6927719116210938e-05
+Time to assign a model to a client: 1.5974044799804688e-05
+Time to assign a model to a client: 1.621246337890625e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to assign a model to a client: 1.71661376953125e-05
+Time to assign a model to a client: 1.4781951904296875e-05
+Time to assign a model to a client: 1.5020370483398438e-05
+Time to perform aggregation:0.20853090286254883
+++++++++++++++++++++++++++++++++++++++++++++++++++
+Global | Round 25..
+Train Loss: 0.789 | Train Metric: 0.780 |Test Loss: 0.789 | Test Acc: 0.780 |
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Final Test Accuracy: 0.7795858740806579
+Saved to: logs/mnist_prop_0.1//final_acc.txt
